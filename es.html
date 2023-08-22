@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Martin Fabian Elias digital Portfolio">
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="btn-translate"
+        ><img src="us.svg" class="flag" alt="US flag" /> &nbsp; English</a
+      >
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Mis Servicios</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Sobre Mi</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Mi Trabajo</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro spanish-title">
+        Hola, soy <strong>Martin Elias</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Desarrollador front-end
+      </p>
+      <img
+        src="./Portoflio Images/fotoPerfil.jpeg"
+        alt="a picture of myself"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <!-- Mis servicios -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Lo Que Hago</h2>
+      <div class="services">
+        <div class="service">
+            <h3>Desarrollo de Interfaces de Usuario</h3>
+            <p>
+                Poseo habilidades para crear Interfaces de Usuario (UI) utilizando HTML5, CSS3 y JavaScript,
+                así como también la capacidad de desarrollar Single Page Applications (SPA) con React.js. 
+                Mi enfoque se centra en la usabilidad y la experiencia del usuario, asegurándome de crear 
+                interfaces atractivas y funcionales.
+            </p>
+        </div>
+        <!-- / service -->
+    
+        <div class="service">
+            <h3>Diseño Responsive</h3>
+            <p>
+                Comprendo la importancia de la Experiencia del Usuario (UX) y, por lo tanto, implemento 
+                diseños responsive en las interfaces que desarrollo. Esto garantiza que los usuarios puedan 
+                acceder y disfrutar del contenido de manera cómoda, independientemente del dispositivo que 
+                utilicen para acceder a la web.
+            </p>
+        </div>
+        <!-- / service -->
+    
+        <div class="service">
+            <h3>Lider de equipo</h3>
+            <p>
+              Como Auditor Senior, lideré y ejecuté auditorías financieras y operativas para diversas empresas.
+              Evalué controles internos, analicé estados financieros y lideré equipos en la identificación de 
+              áreas de mejora en los procesos empresariales. Mi enfoque analítico y meticuloso asegura informes 
+              precisos y recomendaciones sólidas para mejorar la eficiencia y eficacia de los procesos.
+            </p>
+        </div>
+    </div>
+    
+      <!-- / services -->
+
+      <a href="#work" class="btn">Mi Trabajo</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Sobre Mi</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Desarrollador Front-End developer y Contador
+      </p>
+
+      <div class="about-me__body">
+        <p>
+            ¡Hola! Gracias por visitar mi portfolio. Mi nombre es Martín,
+            soy argentino y tengo 34 años. Como Contador, he enfocado mi 
+            carrera hacia el área de Auditoría, donde actualmente ocupo
+            el rol de <strong>Auditor Externo Senior</strong> y lidero un
+            equipo dedicado a esta función.
+        </p>
+    
+        <p>
+            Durante mi trayectoria como Contador, descubrí mi pasión por 
+            el mundo de la programación, lo que me llevó a estudiar y 
+            adquirir habilidades en el desarrollo <strong>Front End y 
+            Responsive Design (UI)</strong>. Mi formación en Contabilidad
+            me proporciona una perspectiva única para abordar los proyectos
+            y resolver problemas de manera creativa y efectiva.
+        </p>
+    
+        <p>
+            Me considero una persona flexible, capaz de adaptarme rápidamente
+            a los cambios y enfrentar desafíos con entusiasmo. Disfruto trabajar
+            en equipo, aprovechando la sinergia colectiva, pero también cuento
+            con la capacidad para desarrollar proyectos de forma independiente.
+        </p>
+    </div>
+    
+
+      <img
+        src="./Portoflio Images/Foto3.jpg"
+        alt="Myself in a park"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Mi Trabajo</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Algunos de mis proyectos
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a
+          href="https://martin-00789.github.io/memori-game-image/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./Portoflio Images/Proyecto 1.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a
+          href="https://martin-00789.github.io/aplicacion-de-tareas-react/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./Portoflio Images/Proyecto 3.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a
+          href="https://martin-00789.github.io/Calculadora-con-React/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./Portoflio Images/Proyecto 3.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a
+          href="https://martin-00789.github.io/Pokemon-API-React/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./Portoflio Images/Proyecto 4.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 05 -->
+        <a
+          href="https://martin-00789.github.io/Products-Landing-Page/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./Portoflio Images/Proyecto 4.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 06 -->
+        <a
+          href="https://martin-00789.github.io/contador-de-clics/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./Portoflio Images/Proyecto 4.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="martinfab.elias89@gmail.com" class="footer__link"
+        >martinfab.elias89@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/martin-elias-236174266/"
+            target="_blank"
+            aria-label="Link to my linkedin account"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/Martin-00789"
+            target="_blank"
+            aria-label="Link to my Github account"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/fca1619143.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome -->
+    <script src="index.js"></script>
+  </body>
+</html>
